@@ -1,0 +1,27 @@
+.counter__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    background-color: rgba(247, 241, 247, 0.939);
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    border-color: #d7dae2;
+    transition: .5s ease;
+    
+}
+
+button:hover {
+    background-color:rgba(216, 97, 216, 0.939);
+    border: 2px solid #ed89d2;
+    color: rgb(253, 253, 253);
+}
+
+button:active {
+    transform: translateY(2px);
+}
