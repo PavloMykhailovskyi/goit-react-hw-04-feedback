@@ -33,9 +33,7 @@ export const App = () => {
   }
 
   const options = Object.keys({ good, neutral, bad })
-  
   const totalFeedback = good + neutral + bad;
-
   const countPositiveFeedbackPercentage = () => {
     return Math.round((good * 100) / totalFeedback)
   }
